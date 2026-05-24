@@ -34,14 +34,14 @@ export default function LandingPage() {
         { name: "Menu", id: "#menu" },
         { name: "Gallery", id: "#gallery" },
       ]}
-      brandName="AURA ROOFTOP"
+      brandName="AURA FOOD"
     />
   </div>
 
   <div id="hero" data-section="hero" className="pt-24 md:pt-32">
       <HeroBillboardCarousel
       background={{ variant: "plain" }}
-      title="Karachi’s Finest Rooftop Experience"
+      title="Karachi’s Finest Food Experience"
       description="Where culinary artistry meets panoramic city views. Indulge in an elevated dining experience crafted for the refined palate."
       buttons={[
         { text: "Order Now", href: "#menu" },
@@ -119,7 +119,7 @@ export default function LandingPage() {
         { id: "4", name: "Omar Farooq", role: "Local Resident", testimonial: "My go-to place for date nights. Aura Rooftop redefined luxury dining.", imageSrc: "http://img.b2bpic.net/free-photo/friends-talking-by-lunch_1098-14622.jpg" },
         { id: "5", name: "Sara H.", role: "Socialite", testimonial: "The desserts are pieces of art. Truly a world-class experience.", imageSrc: "http://img.b2bpic.net/free-photo/woman-kissing-man-forehead-restaurant_23-2148014524.jpg" },
       ]}
-      title="Voices of the Experience"
+      title="Voices of the Visitors"
       description="Hear what our patrons have to say about their journey with us."
     />
   </div>
@@ -158,7 +158,7 @@ export default function LandingPage() {
       <ContactText
       useInvertedBackground={false}
       background={{ variant: "plain" }}
-      text="Ready to experience Aura Rooftop? Reserve your table now or place a delivery order for an elevated evening."
+      text="Ready to experience Aura Food? Reserve your table now or place a delivery order for an elevated evening."
       buttons={[
         { text: "Order Now", href: "#menu" },
         { text: "Reserve Your Experience", href: "#" },
