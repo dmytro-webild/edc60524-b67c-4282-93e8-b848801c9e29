@@ -22,7 +22,7 @@ export default function LandingPage() {
         sizing="large"
         background="noise"
         cardStyle="subtle-shadow"
-        primaryButtonStyle="flat"
+        primaryButtonStyle="primary-glow"
         secondaryButtonStyle="radial-glow"
         headingFontWeight="light"
     >
