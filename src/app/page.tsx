@@ -33,13 +33,12 @@ export default function LandingPage() {
         { name: "Experience", id: "#experience" },
         { name: "Menu", id: "#menu" },
         { name: "Gallery", id: "#gallery" },
-        { name: "Contact", id: "#contact" },
       ]}
       brandName="AURA ROOFTOP"
     />
   </div>
 
-  <div id="hero" data-section="hero">
+  <div id="hero" data-section="hero" className="pt-24 md:pt-32">
       <HeroBillboardCarousel
       background={{ variant: "plain" }}
       title="Karachi’s Finest Rooftop Experience"
